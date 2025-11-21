@@ -31,6 +31,7 @@ import org.stypox.dicio.skills.timer.TimerInfo
 import org.stypox.dicio.skills.translation.TranslationInfo
 import org.stypox.dicio.skills.weather.WeatherInfo
 import org.stypox.dicio.skills.joke.JokeInfo
+import org.stypox.dicio.skills.music.MusicInfo
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -52,6 +53,7 @@ class SkillHandler @Inject constructor(
         TimerInfo,
         CurrentTimeInfo,
         MediaInfo,
+        MusicInfo,
         JokeInfo,
         ListeningInfo(dataStore),
         TranslationInfo,
